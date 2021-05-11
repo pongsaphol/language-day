@@ -65,16 +65,22 @@ section .grid .grid-item {
 
 #quote {
   font-size: 60px;
-  line-height: 30px;
   color: var(--primary-color);
 }
 
 #karaoke {
   font-size: 40px;
-  line-height: 20px;
   color: var(--darken-secondary-color);
 }
 
 h4 {
   font-size: 30px;
+}
+
+.back-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  margin: 1rem;
 }
